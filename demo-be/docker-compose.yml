@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  att-be-app:
+    image: "att/demo-be"
+    ports:
+     - "8080:8080"
+    container_name: att-be-app

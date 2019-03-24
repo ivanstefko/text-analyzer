@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+  # The front-end app in React
+  att-fe-app:
+    image: "att/demo-fe"
+    depends_on:
+      - att-be-app
+    build:
+      context: ./demo-fe/
+      dockerfile: Dockerfile
+    ports:
+     - "3000:3000"
+    container_name: att-fe-app
+    command: npm start
+    environment:
+      - NODE_ENV=development
+
+  # The back-end app in Spring Boot  
+  att-be-app:
+    image: "att/demo-be"
+    # build:
+    #   context: ./demo-be/
+    #   dockerfile: Dockerfile    
+    ports:
+     - "8080:8080"
+    container_name: att-be-app
+    

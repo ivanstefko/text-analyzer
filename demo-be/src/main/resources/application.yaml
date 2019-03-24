@@ -1,0 +1,10 @@
+server:
+#  error:
+# disable default Error WhiteLabel page
+#    whitelabel:
+#      enabled: false
+  servlet:
+    context-path: /api
+
+# Debugging of spring boot auto-configuration
+#debug: true

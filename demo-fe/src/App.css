@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+input {
+  border: 1px solid #666
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.appContainer {
+  padding: 0 1rem;
+}
+
+.reactTable {
+  font-size: 11px;
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+.content {
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+
+.dataContainer {
+  margin-top: 20px;
+}
+
+.tableDesc {
+  font-size: 14px; 
+  font-weight: bold;
+  margin-bottom: 5px
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  margin: 2px 2px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  background: #555;
+}
+
+.btn:hover {
+  background: #666
+}
+
