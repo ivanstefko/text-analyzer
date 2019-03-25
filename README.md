@@ -13,10 +13,10 @@ The backend part has implemented Swagger to easily work directly with APIs if ne
 
 ## Pre-conditions
 ```
-- Git
-- Docker
-- docker-compose
-- Maven
+- [Git](https://git-scm.com/downloads)
+- [Docker](https://docs.docker.com/install/)
+- [docker-compose](https://docs.docker.com/compose/install/)
+- [Maven](https://maven.apache.org/install.html)
 ```
 
 ## How to start 
