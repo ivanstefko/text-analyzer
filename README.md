@@ -15,7 +15,7 @@ The backend part has implemented Swagger to easily work directly with APIs if ne
 ```
 - Git
 - Docker
-- `docker-compose`
+- docker-compose
 - Maven
 ```
 
