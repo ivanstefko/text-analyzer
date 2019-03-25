@@ -1,4 +1,3 @@
-FROM oracle/graalvm-ce:1.0.0-rc8
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 ARG JAR_FILE
