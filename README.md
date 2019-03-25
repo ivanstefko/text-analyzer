@@ -12,12 +12,11 @@ Both application parts runs as instance in docker container and communicate betw
 The backend part has implemented Swagger to easily work directly with APIs if needed. The Swagger is available at http://localhost:8080/api/swagger-ui.html
 
 ## Pre-conditions
-```
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://docs.docker.com/install/)
 - [docker-compose](https://docs.docker.com/compose/install/)
 - [Maven](https://maven.apache.org/install.html)
-```
+
 
 ## How to start 
 ```
