@@ -21,7 +21,7 @@ The backend part has implemented Swagger to easily work directly with APIs if ne
 ## How to start 
 ```
 git clone git@github.com:ivanstefko/text-analyzer.git
-cd text-anayzer
+cd text-analyzer
 mvn clean install -f demo-be/pom.xml
 mvn dockerfile:build -f demo-be/pom.xml
 docker-compose up --build
