@@ -1,4 +1,5 @@
 # text-analyzer project
+text-analyzer
 
 ## About project
 This project creates text analysis with Lucene Analyzer of given web page. 
